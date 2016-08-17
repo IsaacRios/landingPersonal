@@ -1,1 +1,5 @@
-app.scss
+@import "common";
+@import "colors";
+body{
+	@extend .aquaOxi;
+}

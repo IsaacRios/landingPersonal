@@ -1,5 +1,27 @@
 @import "common";
 @import "colors";
-body{
-	@extend .aquaOxi;
+html,body{
+	margin: 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+header{
+	.init{
+		@extend .pull-right;
+		@extend .relative;
+		position: relative;
+		top: 2em;
+		padding-right: 10px;
+	}
+	.restant-time{
+		span{
+			@extend .inline-block;
+			vertical-align:top;
+			line-height:1em;
+			font-size:99px;
+		}
+	}
+}
+.workshop-background{
+	background: linear-gradient(to right, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+	padding-bottom: 100px;
 }

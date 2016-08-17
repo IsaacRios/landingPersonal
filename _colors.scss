@@ -3,7 +3,8 @@ $colors:(
 	blueOxi: #004777,
 	bluelight: #a1d2ce,
 	greenOxi: #3e885b,
-	yellowOxi: #efd28d
+	yellowOxi: #efd28d,
+	white: #FFFFDD
 );
 
 @each $color,$value in $colors{

@@ -1,0 +1,81 @@
+.inline-block, header .restant-time span {
+  display: inline-block;
+}
+
+.pull-right, header .init {
+  float: right;
+}
+
+.relative, header .init {
+  position: relative;
+}
+
+.aquaOxi {
+  background-color: #0b97aa;
+}
+
+.aquaOxi-text {
+  color: #0b97aa;
+}
+
+.blueOxi {
+  background-color: #004777;
+}
+
+.blueOxi-text {
+  color: #004777;
+}
+
+.bluelight {
+  background-color: #a1d2ce;
+}
+
+.bluelight-text {
+  color: #a1d2ce;
+}
+
+.greenOxi {
+  background-color: #3e885b;
+}
+
+.greenOxi-text {
+  color: #3e885b;
+}
+
+.yellowOxi {
+  background-color: #efd28d;
+}
+
+.yellowOxi-text {
+  color: #efd28d;
+}
+
+.white {
+  background-color: #FFFFDD;
+}
+
+.white-text {
+  color: #FFFFDD;
+}
+
+html, body {
+  margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header .init {
+  position: relative;
+  top: 2em;
+  padding-right: 10px;
+}
+
+header .restant-time span {
+  vertical-align: top;
+  line-height: 1em;
+  font-size: 99px;
+}
+
+.workshop-background {
+  background: linear-gradient(to right, #93cede 0%, #75bdd1 41%, #49a5bf 100%);
+  padding-bottom: 100px;
+}

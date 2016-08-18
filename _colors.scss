@@ -4,7 +4,9 @@ $colors:(
 	bluelight: #a1d2ce,
 	greenOxi: #3e885b,
 	yellowOxi: #efd28d,
-	white: #FFFFDD
+	whitec: #FFD,
+	white: #FFF,
+	black: #000
 );
 
 @each $color,$value in $colors{
@@ -13,5 +15,9 @@ $colors:(
 	}
 	.#{$color}-text{
 		color:$value;
+	}
+	.btn--#{$color}{
+	@extend .#{$color};
+	box-shadow: 3px 3px 0px 3px darken($value, 15);
 	}
 }

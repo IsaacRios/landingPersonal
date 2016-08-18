@@ -1,9 +1,45 @@
+.bold{
+	font-weight: bold;	
+}
 .inline-block{
 	display: inline-block;
+}
+.large-padding{
+	padding: 10px 15px;
+}
+.no-border{
+	border:none;
 }
 .pull-right{
 	float:right;
 }
 .relative{
 	position: relative;
+}
+.small{
+	font-size: 14px;
+}
+.slim{
+	font-weight:200;
+}
+.text-center{
+	text-align:center;
+}
+.text-justify{
+	text-align:justify;
+}
+.text-left{
+	text-align:left;
+}
+.text-right{
+	text-align:right;
+}
+.title{
+	font-size:50px;	
+}
+.top-space{
+	margin-top:1em;
+}
+.uppercase{
+	text-transform:uppercase;
 }

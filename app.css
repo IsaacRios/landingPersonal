@@ -1,5 +1,17 @@
+.bold, .btn, header .restant-time span span {
+  font-weight: bold;
+}
+
 .inline-block, header .restant-time span {
   display: inline-block;
+}
+
+.large-padding, .btn {
+  padding: 10px 15px;
+}
+
+.no-border, .btn {
+  border: none;
 }
 
 .pull-right, header .init {
@@ -8,6 +20,42 @@
 
 .relative, header .init {
   position: relative;
+}
+
+.small, header .restant-time span span {
+  font-size: 14px;
+}
+
+.slim {
+  font-weight: 200;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right, header .restant-time span span {
+  text-align: right;
+}
+
+.title {
+  font-size: 50px;
+}
+
+.top-space {
+  margin-top: 1em;
+}
+
+.uppercase, header .restant-time span span {
+  text-transform: uppercase;
 }
 
 .aquaOxi {
@@ -73,6 +121,11 @@ header .restant-time span {
   vertical-align: top;
   line-height: 1em;
   font-size: 99px;
+}
+
+header .restant-time span span {
+  display: block;
+  padding-right: 10px;
 }
 
 .workshop-background {

@@ -865,7 +865,7 @@
 }
 
 .title {
-  font-size: 50px;
+  font-size: 80px;
 }
 
 .top-space, .bullet-points li:nth-child(n+3) {
@@ -993,6 +993,10 @@
 .container-80 {
   width: 80%;
   margin: 0 auto;
+}
+
+.fontBitte {
+  font-family: 'Bitter', serif;
 }
 
 html, body {
